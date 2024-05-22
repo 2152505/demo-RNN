@@ -1,6 +1,8 @@
 # demo-RNN
 A demo of RNN to acknowledge the basic method to make RNN .
 
+![](./images/1.png)
+
 ```python
 import numpy as np
 
@@ -247,3 +249,5 @@ y =  np.array([
 rnn.fit(X, y)
 print(rnn.predict([0,1,0,0]), 1, 12)
 ```
+
+![](./images/2.png)
